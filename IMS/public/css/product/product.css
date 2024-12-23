@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light gray for a soft background */
+  color: #333; /* Standard text color */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #007acc; /* Sky blue for headings */
+  margin: 20px 0;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #fff; /* White background for table */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure corners stay rounded */
+}
+
+th, td {
+  padding: 12px; /* Increase padding for better readability */
+  border: 1px solid #ddd; /* Light gray border */
+  text-align: left;
+}
+
+th {
+  background-color: #007acc; /* Sky blue for header */
+  color: #fff; /* White text for contrast */
+  text-transform: uppercase; /* Add uppercase for a cleaner look */
+  font-size: 14px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f4f4f4; /* Light gray for alternate rows */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ffffff; /* White for other rows */
+}
+
+tbody tr:hover {
+  background-color: #e3f2fd; /* Very light blue for hover */
+  transition: background-color 0.2s ease-in-out; /* Smooth hover transition */
+}
+
+td[colspan="5"] {
+  text-align: center;
+  font-style: italic;
+  color: #888; /* Slightly darker gray for emphasis */
+}
+
+a {
+  text-decoration: none;
+  color: #007acc; /* Sky blue for links */
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #007acc; /* Sky blue button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded buttons */
+}
+
+button:hover {
+  background-color: #005f99; /* Slightly darker blue for hover */
+}
+
+div {
+  margin: 20px;
+}

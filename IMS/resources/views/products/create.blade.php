@@ -3,10 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ asset('css/product/createproduct.css') }}">
+
   <title>Document</title>
 </head>
 <body>
   <h1>Adding Product</h1>
+  <div>
+    <a href="{{ route('products.index') }}" class="btn-back">Back to Dashboard</a>
+  </div>
+
   <form action="{{ route('products.store') }}" method="POST">
     @csrf 
     @method('post')

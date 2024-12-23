@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light gray for page background */
+  color: #333; /* Standard text color */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #007acc; /* Sky blue for headings */
+  margin: 20px 0;
+}
+
+form {
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  margin: 20px auto;
+  width: 50%; /* Centered form with a fixed width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+}
+
+form div {
+  margin-bottom: 15px; /* Space between form elements */
+  text-align: left; /* Align labels and inputs to the left */
+}
+
+label {
+  display: block; /* Ensure labels are on their own line */
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555; /* Slightly darker gray for labels */
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%; /* Full width for input fields */
+  padding: 10px;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 5px; /* Rounded corners for inputs */
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type="text"]:focus {
+  border-color: #007acc; /* Sky blue border on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 122, 204, 0.5); /* Glow effect */
+}
+
+input[type="submit"] {
+  background-color: #007acc; /* Sky blue button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #005f99; /* Darker blue on hover */
+}
+
+.btn-back {
+  display: inline-block;
+  background-color: #007acc; /* Sky blue button */
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+  background-color: #005f99; /* Darker blue on hover */
+}
+
+
